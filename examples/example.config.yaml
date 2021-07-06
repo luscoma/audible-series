@@ -1,0 +1,50 @@
+series_to_skip:
+  - Good Thief's Guides #  Don't care about this oneG
+  - Raptors # Need to figure out if I like this
+  - Champion is Playing Series # Must have sucked,I don't remember it
+  - Grim Reaper # Abandoned this one
+  - Mythos # Not actively following
+  - Harley Merlin Series # Stopped when it spun-off
+  - Lana Harvey, Reapers Inc. # Finished on Kindle
+  - Elantris Series # Finished
+  - A Song of Ice and Fire # Not really following this one actively
+  - American Gods # Just wanted the one book
+  - Mary Russell and Sherlock Holmes # Abandoned
+  - The Three-Body Problem Series # Abandoned
+  - The Witchlands # Abandoned
+  - Japanese Innovative Language Learning # Irrelevant
+  - Legend of Drizzt # Irrelevant
+  - Good Thief's Guides # Irrelevant
+  - Bedtime Stories for Cynics
+  - The X-Files (Audible Original)  # Not a series
+  - Wheel of Time  # Series finished
+   # This is in there in chrono and pub order, we only care about chrono since
+   # it's publishing ongoing now
+  - Ascend Online [publication order]
+  - Mercy Thompson # Dropped
+  - The Colonel Race Series # Hercule Poirot, not ongoing
+  - The Enderverse # Not actively following
+  - The Supervillainy Saga # Not actively following
+  - The Witcher Saga # Not actively following
+  - Shining Smith # Not reading
+  - A Jack Ryan Novel (chronological order) # Not actively reading
+  - Codex Alera # Not actively reading
+  - The Echoes Saga  # Not actively reading
+preordered_asin:
+  - "1039403360" # The Winter Solstice
+  - "1039400205" # He Who Fights Monsters 3
+  - "1705267920" # Eat Slay Love
+  - "1666111287" # Underverse
+  - "103940202X" # Wayward Galaxy 2
+external_library:
+  Chaos Seeds: "B088WZZX2W" # Monsters
+  Six of Crows: "B01LYTWBSB" # Crooked Kingdom
+  "The Ten Realms: A Military Portal Fantasy LitRPG Series": "B095XBBX63" # Sixth Realm Part 1
+  Skyward: "B07VYMVXK6" # Starsight
+disallowed_asins:
+  # Monster Hunter Files, waiting on book 8 of MHI not this
+  - "B074VHGZC4"
+  # Dresden files working with bigfoot is a short story, already in brief cases.
+  # Waiting on the book after battle grounds
+  - "B0128B9MHK"
+

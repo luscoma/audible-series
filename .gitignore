@@ -1,0 +1,7 @@
+*.swp
+__pycache__
+dist
+
+# Output Files
+library.csv
+config.yaml
