@@ -17,3 +17,6 @@ pylint = "^2.9.3"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."audible.cli_plugins"]
+"series" = "audible_series.cmd_series:cli"
