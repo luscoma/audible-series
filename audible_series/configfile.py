@@ -14,7 +14,7 @@ class ConfigData(
             'external_library',
             # ASINs that should not be considered the next in a series or in the
             # library.  This is useful for ongoing series where Audible puts a
-            # spin-off or short story afer the latest entry in the series.
+            # spin-off or short story after the latest entry in the series.
             'disallowed_asins'
         ])):
 

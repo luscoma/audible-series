@@ -8,7 +8,8 @@ audible library export
 audible series -l $PWD/library.csv -c $PWD/config.yaml
 ```
 
-TODO:
-- Expand Readme
-- Expand docs
-- Add simple tests
+The config file is optional but can be used to override book data in cases where
+a book is already preordered, a series should be ignored, or if audible data is
+bad.  It can also be used to manually set a case where a book was read somewhere
+else but it is not in your library (though this requires manually looking up the
+audible ASIN).

@@ -1,3 +1,10 @@
+"""
+A commandlet for the audible cli that outputs series with unpurchased books.
+
+To use first generate a library file via audible_cli library export then run
+this command.  A config file can be used to skip unwanted series or already
+preordered books -- see configfile.py for options.
+"""
 import audible
 import click
 from audible_cli.config import pass_session
@@ -11,7 +18,7 @@ from audible_series import configfile
     "--library", "-l",
     multiple=False,
     required=True,
-    help="The exported library to check"
+    help="The exported library to check, generate via `library export` cmd."
 )
 @click.option(
     "--config",
