@@ -1,9 +1,25 @@
 # Audible Series Command
 
-Can be used to print out series that are coming up next from a poetry shell.
+## Installation
 
 ```
-poetry shell
+pip3 install audible
+pip3 install audible-series
+```
+
+Sadly the audible-cli tool is not in pypi but is packaged, it's easiest to
+install via git:
+
+```
+git clone https://github.com/mkb79/audible-cli
+pip3 install ./audible-cli
+```
+
+## Usage
+
+The command will work on an exported library file:
+
+```
 audible library export
 audible series -l $PWD/library.csv -c $PWD/config.yaml
 ```
@@ -14,7 +30,18 @@ bad.  It can also be used to manually set a case where a book was read somewhere
 else but it is not in your library (though this requires manually looking up the
 audible ASIN).
 
-Note: While the packaging of all this will automatically just work when
-installed with pip the audible-cli itself is not in pypi.  You must clone the
-git repo https://github.com/mkb79/audible-cli then pip install this repo for the
-audible cli to be usable.
+## Development
+
+
+This project uses poetry which wraps a bunch of tools like virtualenv.  The
+easiest way to run it for development is to clone this repository then run a
+poetry shell.
+
+```
+poetry shell
+audible library export
+audible series -l $PWD/library.csv -c $PWD/config.yaml
+```
+
+When developing the `--only_series` flag may be useful since it will filter the
+library to a single series.
