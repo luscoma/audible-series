@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "audible-series"
-version = "0.1.0"
+version = "1.0.0"
 description = "Look for new series realeases in Audible"
 authors = ["Alex Lusco <alex.lusco@gmail.com>"]
 
