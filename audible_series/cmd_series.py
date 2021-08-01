@@ -76,4 +76,4 @@ def display_warnings(latest_in_series, options):
             click.secho(
                 f"Warning: Preorder {book.title} in {book.series_title} ({book.asin}) is library "
                 "already",
-                fg="orange")
+                fg="bright_red")
