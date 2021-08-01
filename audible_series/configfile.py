@@ -20,6 +20,8 @@ class ConfigData(
 
     @classmethod
     def from_yaml(cls, data):
+        if not data:  # Can happen if yaml is empty
+            data = {}
         skipped = data.get('series_to_skip', [])
         preordered = data.get('preordered_asin', [])
         external_library = data.get('external_library', {})
@@ -38,7 +40,7 @@ class ConfigData(
 
 def load(config_file):
     if not config_file:
-        ConfigData.empty()
+        return ConfigData.empty()
 
     with open(config_file) as f:
         data = yaml.safe_load(f)
