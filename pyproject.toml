@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "audible-series"
-version = "1.0.0"
-description = "Look for new series realeases in Audible"
+version = "1.0.1"
+description = "Adds a command to audible-cli that looks for new series releases in a user's library."
 authors = ["Alex Lusco <alex.lusco@gmail.com>"]
+homepage = "https://github.com/luscoma/audible-series"
+repository = "https://github.com/luscoma/audible-series"
+readme="README.md"
+keywords = ["audible"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
