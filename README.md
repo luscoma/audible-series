@@ -4,15 +4,8 @@
 
 ```
 pip3 install audible
+pip3 install audible-cli
 pip3 install audible-series
-```
-
-Sadly the audible-cli tool is not in pypi but is packaged, it's easiest to
-install via git:
-
-```
-git clone https://github.com/mkb79/audible-cli
-pip3 install ./audible-cli
 ```
 
 ## Usage
