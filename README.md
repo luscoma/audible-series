@@ -39,3 +39,12 @@ audible series -l $PWD/library.csv -c $PWD/config.yaml
 
 When developing the `--only_series` flag may be useful since it will filter the
 library to a single series.
+
+## Publishing
+
+```
+poetry build
+poetry publish
+```
+
+This will require an API token to pypi.  You can create one then configure poetry via: `poetry config pypi-token.pypi your-api-token`
