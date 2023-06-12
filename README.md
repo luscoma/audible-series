@@ -32,6 +32,7 @@ poetry shell.
 
 ```
 poetry shell
+set -x AUDIBLE_PLUGIN_DIR $PWD/audible_series
 audible library export
 audible series -l $PWD/library.csv -c $PWD/config.yaml
 ```
