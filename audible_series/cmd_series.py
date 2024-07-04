@@ -7,7 +7,7 @@ preordered books -- see configfile.py for options.
 """
 import audible
 import click
-from audible_cli.config import pass_session
+from audible_cli.decorators import pass_session
 
 from audible_series import seriesutil
 from audible_series import configfile
@@ -69,6 +69,7 @@ def cli(session, library, config, only_series):
 
 
 def display_warnings(latest_in_series, options):
+    """Displays warnings."""
     # To save typos, we alert for any unused external library series
     for series_title in options.external_library.keys():
         if series_title not in latest_in_series:

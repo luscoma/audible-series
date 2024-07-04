@@ -1,5 +1,6 @@
 from collections import namedtuple
-import yaml
+
+from yaml import safe_load
 
 
 class ConfigData(
@@ -43,6 +44,6 @@ def load(config_file):
         return ConfigData.empty()
 
     with open(config_file) as f:
-        data = yaml.safe_load(f)
+        data = safe_load(f)
 
     return ConfigData.from_yaml(data)
