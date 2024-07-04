@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "audible-series"
-version = "1.0.3"
+version = "1.1.0"
 description = "Adds a command to audible-cli that looks for new series releases in a user's library."
 authors = ["Alex Lusco <alex.lusco@gmail.com>"]
 homepage = "https://github.com/luscoma/audible-series"
